@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Bio &amp; Rekomendasi Produk</title>
+<style>
+:root{--bg:#f6f4ef;--card:#fff;--text:#1d1b18;--muted:#6a655d;--accent:#e4572e;--accent-text:#fff;--line:#e6e1d8;color-scheme:light;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#141210;--card:#201d19;--text:#f3efe8;--muted:#a8a196;--accent:#ff7a50;--accent-text:#1a0d08;--line:#342f28;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#141210;--card:#201d19;--text:#f3efe8;--muted:#a8a196;--accent:#ff7a50;--accent-text:#1a0d08;--line:#342f28;color-scheme:dark}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.5}
+main{max-width:480px;margin:0 auto;padding:40px 18px 48px}
+.bio{text-align:center;margin-bottom:28px}
+.avatar{width:92px;height:92px;border-radius:50%;background:var(--accent);color:var(--accent-text);display:flex;align-items:center;justify-content:center;font-size:36px;font-weight:700;margin:0 auto 14px}
+h1{margin:0;font-size:24px}
+.bio p{margin:6px 0 0;color:var(--muted)}
+.links{display:grid;gap:10px;margin-bottom:32px}
+.link{display:block;text-align:center;padding:14px;border:1px solid var(--line);background:var(--card);color:var(--text);border-radius:14px;text-decoration:none;font-weight:600}
+h2{font-size:18px;margin:0 0 12px}
+.products{display:grid;gap:12px}
+.item{display:flex;gap:14px;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:16px;padding:14px}
+.thumb{flex:0 0 64px;height:64px;border-radius:12px;background:var(--line);display:flex;align-items:center;justify-content:center;font-size:28px}
+.info{flex:1;min-width:0}
+.info h3{margin:0;font-size:16px}
+.info p{margin:2px 0 8px;color:var(--muted);font-size:14px}
+.buy{display:inline-block;background:var(--accent);color:var(--accent-text);padding:7px 16px;border-radius:999px;text-decoration:none;font-size:14px;font-weight:600}
+.note{margin-top:28px;text-align:center;color:var(--muted);font-size:12.5px}
+</style>
+</head>
+<body>
+<main>
+  <div class="bio">
+    <div class="avatar">N</div>
+    <h1>Nama Kamu</h1>
+    <p>Berbagi rekomendasi produk yang kupakai dan layak dibeli.</p>
+  </div>
+
+  <div class="links">
+    <a class="link" href="#produk">🛍️ Produk Rekomendasi</a>
+    <a class="link" href="https://instagram.com/" rel="noopener">📸 Instagram</a>
+    <a class="link" href="https://youtube.com/" rel="noopener">▶️ YouTube</a>
+  </div>
+
+  <h2 id="produk">Rekomendasi Pilihan</h2>
+  <div class="products">
+    <div class="item"><div class="thumb">🎧</div><div class="info"><h3>Nama Produk 1</h3><p>Alasan singkat kenapa produk ini bagus.</p><a class="buy" href="#" rel="noopener sponsored">Lihat Produk</a></div></div>
+    <div class="item"><div class="thumb">📱</div><div class="info"><h3>Nama Produk 2</h3><p>Alasan singkat kenapa produk ini bagus.</p><a class="buy" href="#" rel="noopener sponsored">Lihat Produk</a></div></div>
+    <div class="item"><div class="thumb">🎒</div><div class="info"><h3>Nama Produk 3</h3><p>Alasan singkat kenapa produk ini bagus.</p><a class="buy" href="#" rel="noopener sponsored">Lihat Produk</a></div></div>
+    <div class="item"><div class="thumb">💡</div><div class="info"><h3>Nama Produk 4</h3><p>Alasan singkat kenapa produk ini bagus.</p><a class="buy" href="#" rel="noopener sponsored">Lihat Produk</a></div></div>
+  </div>
+
+  <p class="note">Beberapa tautan adalah tautan afiliasi. Aku bisa mendapat komisi kecil tanpa biaya tambahan untukmu.</p>
+</main>
+</body>
+</html>
